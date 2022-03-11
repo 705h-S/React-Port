@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "project": "Organizarr",
+            "imagePath": "https://github.com/lesliejpatino/Organizarr/raw/main/public/images/gifs/signup.gif",
+            "site": "https://dry-badlands-77030.herokuapp.com/",
+            "repo": "https://github.com/lesliejpatino/Organizarr",
+            "description": "We built this application with the busy student in mind. As students, we find ourselves overwhelmed with the amount of things we must keep track of. We realized that having our to-do items, notes, and access to study groups in one place would be a minor detail that would make a major difference!"
+        },
+        {
+            "project": "Employee-index",
+            "imagePath": "https://github.com/705h-S/Employee-index/raw/main/images/menu.png",
+            "site": "https://drive.google.com/file/d/1kjfavFy3QuryDU14pSGHTCaDI0GcTWNh/view",
+            "repo": "https://github.com/705h-S/Employee-index",
+            "description": "A command-line application to manage a company's employee database, using Node.js, Inquirer, Express, and MySQL."
+        },
+        {
+            "project": "Backend-E-Com",
+            "imagePath": "https://github.com/705h-S/Backend-E-Com/raw/main/images/allProducts.png",
+            "site": "https://drive.google.com/file/d/1Kp1v9VaK22umD2qZo48T-ZSA3U_B7BLN/view",
+            "repo": "https://github.com/705h-S/Backend-E-Com",
+            "description": "Back end for an e-commerce site by modifying starter code. I'll configure a working Express.js API to use Sequelize to interact with a MySQL database."
+        },
+        {
+            "project": "Climate-forecast",
+            "imagePath": "https://github.com/705h-S/Climate-forecast/raw/main/assets/images/fullsite.png",
+            "site": "https://705h-s.github.io/Climate-forecast/",
+            "repo": "https://github.com/705h-S/Climate-forecast",
+            "description": "Weather Forecast !"
+        },
+        {
+            "project": "Text-Editor",
+            "imagePath": "https://github.com/705h-S/Text-Editor/raw/main/images/service-worker.png",
+            "site": "https://polar-escarpment-57400.herokuapp.com/",
+            "repo": "https://github.com/705h-S/Text-Editor",
+            "description": "Just another text editor that meets the Progressive Web App (PWA) criteria. The application will also function offline."
+        },
+        {
+            "project": "Team-index-generator",
+            "imagePath": "https://github.com/705h-S/Team-index-generator/raw/main/image/FullSite.png",
+            "site": "https://drive.google.com/file/d/1bVblRhhKAZXMO-HcciIhxP9XetvzfQdf/view",
+            "repo": "https://github.com/705h-S/Team-index-generator",
+            "description": "A command-line application that takes in information about employees then generates an index.html webpage that displays summaries for each person. The index.html is dynamically generated using the Inquirer. Using Jest I was able to perform test."
+        }
+    ]
+}
