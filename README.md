@@ -30,7 +30,8 @@ An attempt at creating a portfolio using React for thr first time.
 
 deployed link
 <br>
-[here](#)
+
+[here](https://705h-s.github.io/React-Port/)
 
 ![site](src/components/assets/images/site.png)
 
