@@ -9,7 +9,9 @@ const styles = {
   header: {
     display: "flex",
     flexDirection: "row",
-    backgroundColor: "gray",
+    backgroundColor: "#eec0c6",
+    backgroundImage: "linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%)",
+    color: "black",
   },
 };
 
@@ -32,7 +34,9 @@ function Portfolio() {
 
   return (
     <div
-      style={{ background: "#050f21", color: "#8bace8", height: "120vh" }}
+      style={{ backgroundColor: "#7f5a83",
+        backgroundImage: "linear-gradient(315deg, #7f5a83 0%, #0d324d 74%)",
+         color: "white", height: "120vh" }}
       id="portfolio"
     >
       <div style={styles.header}>
@@ -40,6 +44,8 @@ function Portfolio() {
       </div>
       {renderPage()}
       {!currentPage === "Resume" ? <Footer /> : <></>}
+      <h1 className="d-flex justify-content-center" > Contact </h1>
+      <Footer /> 
     </div>
   );
 }

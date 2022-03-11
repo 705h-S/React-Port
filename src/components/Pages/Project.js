@@ -15,7 +15,8 @@ function Project() {
           className="card m-2 flex-wrap "
           style={{
             width: "25rem",
-            background: "#bfd6ff",
+            background: "#b3cdd1",
+            backgroundImage: "linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%)",            
             color: "#000000",
             textAlign: "center",
           }}
@@ -26,13 +27,12 @@ function Project() {
             <h5 className="card-title">{res.project}</h5>
             <p className="card-text">{res.description}</p>
             <a href={res.repo} target="_blank" rel="noreferrer">
-              <i className="fa-brands fa-2x fa-github"></i>
+              Repo
             </a>
             <a href={res.site} target="_blank" rel="noreferrer">
               {" "}
               Deployed Site{" "}
             </a>{" "}
-            :
           </div>
         </div>
       ))}
